@@ -286,13 +286,12 @@ body {
 .jquerycss {
 	font-size: 40px;
 	font-weight: 600;
-	color: #FFFFFF;
-	color: #6d48e5;
+	color: #f88643;
 	line-height: 1.2;
 	letter-spacing: 0;
 	font-family: 'Montserrat';
 	padding-top: 25px;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 
 .numberclass {
