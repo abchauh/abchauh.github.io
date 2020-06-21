@@ -1,4 +1,4 @@
-// Custom Scripts for kitehive Template //
+// Custom Scripts for Array Template //
 
 jQuery(function($) {
     "use strict";
@@ -141,30 +141,13 @@ $(document).ready(function() {
 
 });
 
-/*----- Toggle ----- */
-
-/*
-var text = ["List", "Lend", "Earn"];
-var counter = 0;
-var elem = document.getElementById("changeText");
-var inst = setInterval(change, 1000);
-
-function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  if (counter >= text.length) {
-    counter = 0;
-    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
-  }
-} */
-
 $(function () {
   count = 0;
-  wordskitehive = ["List.", "Lend.", "Earn."];
+  wordsarray = ["List.", "Lend.", "Earn."];
   setInterval(function () {
     count++;
     $("#word").addClass("jquerycss").fadeOut(400, function () {
-      $(this).text(wordskitehive[count % wordskitehive.length]).fadeIn(400);
+      $(this).text(wordsarray[count % wordsarray.length]).fadeIn(400);
     });
   }, 1500);
 });

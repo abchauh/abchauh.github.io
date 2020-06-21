@@ -284,7 +284,6 @@ body {
 }
 
 .jquerycss {
-
 	font-size: 40px;
 	font-weight: 600;
 	color: #FFFFFF;
@@ -296,7 +295,16 @@ body {
 	padding-bottom: 50px;
 }
 
-
+.numberclass {
+	font-size: 30px;
+	font-weight: 600;
+	color: #FFFFFF;
+	color: #6d48e5;
+	line-height: 1.2;
+	letter-spacing: 0;
+	font-family: 'Montserrat';
+	text-align: left;
+}
 
 .home .intro-block {
 	padding: 50px 0 50px 0;
