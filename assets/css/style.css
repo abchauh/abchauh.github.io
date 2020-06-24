@@ -280,7 +280,7 @@ body {
 ----------------------------------------------------------*/
 
 .home {
-  padding: 160px 0 50px 0;
+  padding: 140px 0 0 0;
 }
 
 .jquerycss {
@@ -1387,7 +1387,7 @@ body {
   border-radius: 4px;
   margin: 0 auto;
 	margin: 15px 0;
-  padding: 0 25px 0 25px;
+  padding: 0 15px 0 15px;
 	background: #6d48e5;
 	font-family: 'Montserrat';
 	font-size: 14px;
